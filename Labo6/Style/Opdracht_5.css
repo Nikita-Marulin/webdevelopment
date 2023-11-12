@@ -1,7 +1,6 @@
-p, .logo {
-    list-style-image: url("Labo6/Images/nikelogo.png");
-    background-size: 50px;
-    background-position: left center;
+a {
     background-repeat: no-repeat;
-    padding-left: 50px;
+    background-image: url("../Images/paperclip.ico");
+    padding-left: 16px;
+    background-size: 14px;
 }
