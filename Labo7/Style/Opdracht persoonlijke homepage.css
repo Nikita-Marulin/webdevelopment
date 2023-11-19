@@ -82,20 +82,20 @@ table {
 }
 
 .datagrid table td, .datagrid table th {
-    padding: 3px 10px;
+    padding: 5px 15px;
 }
 
 .datagrid table thead th {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2B2D42), color-stop(1, #444451) );
     background-color:#2B2D42;
     color:#FFFFFF;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .datagrid table tbody td {
     color: #333333;
     border-left: 1px solid #D9CFB8;
-    font-size: 12px;
+    font-size: 25px;
 }
 
 .datagrid table tbody .alt td {

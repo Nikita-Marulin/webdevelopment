@@ -1,0 +1,57 @@
+body {
+    background-color: #D9CFB8;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    color:white;
+}
+
+li {
+    margin-top: 10px;
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, p, h2 {
+    color:midnightblue;
+}
+h1 {
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+    height: 100vh;
+}
+
+header, aside{
+    font-family: Serif, sans-serif
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
+
