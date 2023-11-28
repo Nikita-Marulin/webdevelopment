@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -45px auto;
+    padding: 0;
+    max-width: 95%;
+}
+
+.top {
+    height: 200px;
+    background: url("../Images/bgsky3.jpg");
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: darkblue;
+}
+
+.main {
+    width: 75%;
+}
+
+.news {
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    float: right;
+}
+
+.news p {
+    color: #666666;
+    font-size: 90%;
+    margin: 0 10px;
+    padding-bottom: 12px;
+}
+
+.news h3 {
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+.bottom {
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+.top img {
+    position: absolute;
+    margin-right: 90px;
+    bottom: 60px;
+    margin-left: 30px;
+}
+
+.hoofd {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tekst {
+    font-size: 240%;
+    font-weight: bold;
+}
+
+.introduction {
+    background-color: white;
+    color: black;
+    padding: 20px 10px 20px 165px;
+    margin: 20px 20px 20px 30px;
+    text-align: left;
+}
+
+.logo-introduction img {
+    margin-right: 75px;
+    margin-left: 20px;
+    float: left;
+}
+
+.introduction span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.introduction p {
+    margin-top: -20px;
+    margin-bottom: -2px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #999999;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    margin: 20px 20px 20px 30px;
+    padding: 10px;
+    border: 1px dashed #999999;
+    border-radius: 4px;
+    background-color: white;
+}
+
+
+.documentary {
+    display: inline-block;
+    padding-left: 120px;
+}
+
+.documentary a {
+    color: white;
+}
+
+.bottom a:hover {
+    color: red;
+}
+
+.locations {
+    display: inline-block;
+    padding-left: 120px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: white;
+    padding: 0;
+}
+
+.copyright p {
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 8px;
+    padding-top: 2px;
+}
