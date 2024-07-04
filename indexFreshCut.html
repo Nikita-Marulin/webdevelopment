@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Cuts</title>
+  <link rel="stylesheet" href="css/freshcut.css">
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="indexFreshCut.html">Home</a></li>
+      <li><a href="VoorbeeldenFreshCuts.html">Voorbeelden</a></li>
+      <li><a href="OnlineBoekenFreshCuts.html">Online Boeken</a></li>
+      <li><a href="ContactFreshCuts.html">Contact</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img class="kleine-logo" src="Images/Kleine Logo.jpg" alt="Logo"></a></li>
+      <li class="hideOnMobile"><a href="indexFreshCut.html">Home</a></li>
+      <li class="hideOnMobile"><a href="VoorbeeldenFreshCuts.html">Voorbeelden</a></li>
+      <li class="hideOnMobile"><a href="OnlineBoekenFreshCuts.html">Online Boeken</a></li>
+      <li class="hideOnMobile"><a href="ContactFreshCuts.html">Contact</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <br>
+ <div style="text-align: center;"> 
+  <p><a>Warning</a></p>
+  <p class="text1">This cut is fire.</p>
+  <p class="text1">Get ready for compliments.</p>
+  <p class="text1">Fresh cut status achieved</p>
+  <br>
+  <video repeat autoplay muted src="Images/Grey and Gold Vintage Modern Opening Hours Instagram Post.mp4" width="400" height="300"></video>
+</div>
+<div style="text-align: center;"><a  href="OnlineBoekenFreshCuts.html" class="btn">Boeken</a></div>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+    var slideIndex = 0;
+    
+  </script>
+  <footer>
+    <div class="footer-bottom">
+      <p> &copy;2024 Designed by <span class="designer">NikDev</span></p>
+        </div>
+</footer>
+</body>
+</html>

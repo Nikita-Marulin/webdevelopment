@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voorbeelden</title>
+    <link rel="stylesheet" href="css/VoorbeeldenFreshCuts.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="indexFreshCut.html">Home</a></li>
+          <li><a href="VoorbeeldenFreshCuts.html">Voorbeelden</a></li>
+          <li><a href="OnlineBoekenFreshCuts.html">Online Boeken</a></li>
+          <li><a href="ContactFreshCuts.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="#"><img class="kleine-logo" src="Images/Kleine Logo.jpg" alt="Logo"></a></li>
+          <li class="hideOnMobile"><a href="indexFreshCut.html">Home</a></li>
+          <li class="hideOnMobile"><a href="VoorbeeldenFreshCuts.html">Voorbeelden</a></li>
+          <li class="hideOnMobile"><a href="OnlineBoekenFreshCuts.html">Online Boeken</a></li>
+          <li class="hideOnMobile"><a href="ContactFreshCuts.html">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="column">
+          <img src="Images/haircut1.jpg" style="width:100%">
+          <img src="Images/haircut2.jpg"style="width:100%">
+          <img src="Images/haircut3.jpg"style="width:100%">
+          <img src="Images/haircut4.jpg"style="width:100%">
+          <img src="Images/haircut5.jpg"style="width:100%">
+          <img src="Images/haircut29.JPG"style="width:100%">
+          <img src="Images/haircut7.jpg"style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Images/haircut8.JPG"style="width:100%">
+            <img src="Images/haircut9.jpg"style="width:100%">
+            <img src="Images/haircut10.JPG"style="width:100%">
+            <img src="Images/haircut11.JPG"style="width:100%">
+            <img src="Images/haircut12.JPG"style="width:100%">
+            <img src="Images/haircut13.JPG"style="width:100%">
+            <img src="Images/haircut14.JPG"style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Images/haircut15.jpg"style="width:100%">
+            <img src="Images/haircut16.jpg"style="width:100%">
+            <img src="Images/haircut17.JPG"style="width:100%">
+            <img src="Images/haircut18.JPG"style="width:100%">
+            <img src="Images/haircut19.JPG"style="width:100%">
+            <img src="Images/haircut20.JPG"style="width:100%">
+            <img src="Images/haircut21.JPG"style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Images/haircut22.JPG"style="width:100%">
+            <img src="Images/haircut23.JPG"style="width:100%">
+            <img src="Images/haircut24.JPG"style="width:100%">
+            <img src="Images/haircut25.JPG"style="width:100%">
+            <img src="Images/haircut26.JPG"style="width:100%">
+            <img src="Images/haircut27.JPG"style="width:100%">
+            <img src="Images/haircut28.JPG"style="width:100%">
+        </div>
+      </div>
+
+      <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+        var slideIndex = 0;
+      </script>
+    </body>
+    <footer>
+        <div>
+    
+        </div>
+        <div class="footer-bottom">
+          <p> &copy;2024 Designed by <span class="designer">NikDev</span></p>
+            </div>
+    </footer>
+</body>
+</html>

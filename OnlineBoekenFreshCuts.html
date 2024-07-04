@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Boeken</title>
+  <link rel="stylesheet" href="css/onlineboeken-freshcuts.css">
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="indexFreshCut.html">Home</a></li>
+      <li><a href="VoorbeeldenFreshCuts.html">Voorbeelden</a></li>
+      <li><a href="OnlineBoekenFreshCuts.html">Online Boeken</a></li>
+      <li><a href="ContactFreshCuts.html">Contact</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img class="kleine-logo" src="Images/Kleine Logo.jpg" alt="Logo"></a></li>
+      <li class="hideOnMobile"><a href="indexFreshCut.html">Home</a></li>
+      <li class="hideOnMobile"><a href="VoorbeeldenFreshCuts.html">Voorbeelden</a></li>
+      <li class="hideOnMobile"><a href="OnlineBoekenFreshCuts.html">Online Boeken</a></li>
+      <li class="hideOnMobile"><a href="ContactFreshCuts.html">Contact</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <br>
+  <div class="sharp">
+    <h1>BOEK NU JE AFSPRAAK</h1>
+    <p>HIER ONDERAAN</p>
+  </div>
+<br>
+<br>
+<div class="gallery">
+  <a href="ContactFreshCuts.html">
+    <img src="Images/2093603.png" alt="At the Barber's" width="600" height="400">
+  </a>
+  <br>
+  <br>
+  <hr>
+  <div class="descr">Bij de Barber</div>
+  <div class="descr"><b>€ 10</b></div>
+</div>
+<br>
+<div class="gallery">
+  <a href="ContactFreshCuts.html">
+    <img src="Images/a4b27e666a3c2e76df34df0902d152ed.jpg" alt="At your house" width="600" height="400">
+  </a>
+  <hr>
+  <div class="descr">Bij jouw thuis</div>
+  <div class="descr"><b>€ 15</b></div>
+</div>
+<br>
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+    var slideIndex = 0;
+  </script>
+  <footer>
+    <div class="footer-bottom">
+      <p> &copy;2024 Designed by <span class="designer">NikDev</span></p>
+        </div>
+</footer>
+</body>
+</html>
